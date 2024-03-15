@@ -1,0 +1,120 @@
+/* Reset default margin and padding */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set default font family and color */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+/* Set background color and text alignment for sections */
+section {
+    background-color: #f8f8f8;
+    text-align: center;
+}
+
+/* Add spacing around elements */
+.container {
+    padding: 20px;
+}
+
+/* Style the navigation links */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Style the cover image */
+#intro img {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+/* Style the heading and paragraph in the intro section */
+#intro h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+#intro p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Style the button */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style the feature section */
+#features .feature {
+    display: inline-block;
+    width: calc(33.33% - 40px);
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#features .feature img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 10px;
+}
+
+#features .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+#features .feature p {
+    font-size: 16px;
+}
+
+/* Style the about section */
+#about h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.social-links a {
+    display: inline-block;
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
