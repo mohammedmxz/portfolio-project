@@ -18,6 +18,26 @@
         var maze = new Mazing("maze_container");
         maze.enableSpeech(); // Optional: Enable speech synthesis for messages
     </script>
+
+
+<div id="maze_container"><!-- --></div>
+<script>
+
+  var Maze, MazeGame;
+
+  const makeMaze = (id, width, height, speech = false) => {
+    Maze = new FancyMazeBuilder(width, height);
+    Maze.display(id);
+    MazeGame = new Mazing("maze");
+    if(speech) {
+      MazeGame.enableSpeech();
+    }
+  };
+
+  makeMaze("maze_container", 12, 12);
+
+</script>
+
 </body>
 </html>
 
