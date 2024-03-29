@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maze Game</title>
+    <link rel="stylesheet" href="css/mazing.css">
+</head>
+<body>
+    <div id="maze_container"></div>
+
+    <script src="js/maze-builder.js"></script>
+    <script src="js/fancy-maze-builder.js"></script>
+    <script src="js/mazing.js"></script>
+
+    <script>
+        // Initialize the maze game
+        var maze = new Mazing("maze_container");
+        maze.enableSpeech(); // Optional: Enable speech synthesis for messages
+    </script>
+</body>
+</html>
+
